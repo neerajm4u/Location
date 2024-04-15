@@ -7,9 +7,6 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.view.WindowManager
-import android.widget.FrameLayout
-import android.widget.Switch
-import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -18,17 +15,15 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.databinding.DataBindingUtil
 import androidx.room.Room
-import com.example.location.DomainUtil.LocationUtil
-import com.example.location.Model.LocationModel
-import com.example.location.Repository.Repository
+import com.example.location.domainUtil.LocationUtil
+import com.example.location.model.LocationModel
+import com.example.location.repository.Repository
 import com.example.location.viewModel.LocationViewModel
 import com.example.location.databinding.ActivityMainBinding
 import com.example.location.db.LocationDatabase
 import com.example.location.db.LocationMenuEntity
-import com.google.android.material.textfield.TextInputEditText
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 

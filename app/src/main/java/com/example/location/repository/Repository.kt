@@ -1,7 +1,7 @@
-package com.example.location.Repository
+package com.example.location.repository
 
 import android.location.Location
-import com.example.location.Model.LocationModel
+import com.example.location.model.LocationModel
 import com.example.location.db.LocationDatabase
 import com.example.location.db.LocationMenuEntity
 

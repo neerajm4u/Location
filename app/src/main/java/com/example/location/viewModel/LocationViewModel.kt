@@ -2,15 +2,14 @@ package com.example.location.viewModel
 
 import com.example.location.MyApplication
 import android.location.Location
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.CreationExtras
-import com.example.location.DomainUtil.LocationUtil
-import com.example.location.Repository.Repository
+import com.example.location.domainUtil.LocationUtil
+import com.example.location.repository.Repository
 import com.example.location.db.LocationMenuEntity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

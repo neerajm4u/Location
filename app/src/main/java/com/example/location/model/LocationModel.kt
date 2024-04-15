@@ -1,17 +1,7 @@
-package com.example.location.Model
+package com.example.location.model
 
-import android.Manifest
-import android.app.Activity
-import android.content.Context
-import android.content.pm.PackageManager
 import android.location.Location
-import android.location.LocationManager
-import android.util.Log
-import androidx.core.app.ActivityCompat
-import com.google.android.gms.location.FusedLocationProviderClient
-import com.google.android.gms.location.LocationServices
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.async
+
 val TAG = "Neeraj"
 data class LocationModel(
 

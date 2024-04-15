@@ -3,9 +3,9 @@ package com.example.location
 import android.app.Application
 import android.location.Location
 import androidx.lifecycle.Observer
-import com.example.location.DomainUtil.LocationUtil
-import com.example.location.Model.LocationModel
-import com.example.location.Repository.Repository
+import com.example.location.domainUtil.LocationUtil
+import com.example.location.model.LocationModel
+import com.example.location.repository.Repository
 
 class MyApplication: Application() {
 
